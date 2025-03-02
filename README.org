@@ -1,0 +1,9 @@
+#+title: helm-ts-mode
+
+~helm-ts-mode~ is an Emacs major mode for editing [[https://helm.sh/][Helm]] templates based on the builtin [[https://tree-sitter.github.io/tree-sitter/][tree-sitter]] integration (Emacs 29+).
+
+* Features
+The mode currently only provides font-lock (syntax highlighting). The queries are based on the implementation of [[https://github.com/nvim-treesitter/nvim-treesitter][nvim-treesitter]].
+
+* Requirements
+The [[https://github.com/ngalaiko/tree-sitter-go-template/tree/master/dialects/helm][grammar]] for the helm syntax must be installed.
